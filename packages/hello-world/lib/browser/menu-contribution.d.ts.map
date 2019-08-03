@@ -1,0 +1,1 @@
+{"version":3,"file":"menu-contribution.d.ts","sourceRoot":"","sources":["../../src/browser/menu-contribution.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,gBAAgB,EAAE,iBAAiB,EAAE,MAAM,aAAa,CAAC;AAIlE,qBACa,0BAA2B,YAAW,gBAAgB;IAE/D,aAAa,CAAC,KAAK,EAAE,iBAAiB,GAAG,IAAI;CAMhD"}

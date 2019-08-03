@@ -1,0 +1,1 @@
+{"version":3,"file":"command-contribution.d.ts","sourceRoot":"","sources":["../../src/browser/command-contribution.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,cAAc,EAAE,eAAe,EAAE,mBAAmB,EAAE,MAAM,aAAa,CAAC;AAEnF,eAAO,MAAM,iBAAiB;;;CAG7B,CAAC;AAEF,qBACa,6BAA8B,YAAW,mBAAmB;IAG3C,OAAO,CAAC,QAAQ,CAAC,cAAc;gBAAd,cAAc,EAAE,cAAc;IAG3E,gBAAgB,CAAC,QAAQ,EAAE,eAAe,GAAG,IAAI;CAKlD"}
