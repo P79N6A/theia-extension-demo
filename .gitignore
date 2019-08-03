@@ -121,5 +121,7 @@ typings/
 .dynamodb/
 
 lib
+app
+!app/package.json
 
 # End of https://www.gitignore.io/api/node,macos
