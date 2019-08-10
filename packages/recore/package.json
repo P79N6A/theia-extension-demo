@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "@recore/theia-extension",
+  "version": "0.2.51",
+  "description": "IDE - Recore",
+  "keywords": [
+    "theia-extension"
+  ],
+  "files": [
+    "style",
+    "lib"
+  ],
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "theiaExtensions": [
+    {
+      "frontend": "lib/browser/recore-frontend-module",
+      "backend": "lib/node/recore-backend-module"
+    }
+  ],
+  "dependencies": {
+    "@phosphor/messaging": "^1.2.2",
+    "@theia/core": "latest",
+    "@theia/filesystem": "latest",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/socket.io-client": "^1.4.32"
+  }
+}

@@ -1,0 +1,4 @@
+.recore-icon {
+    -webkit-mask: url('recore.svg');
+    mask: url('recore.svg');
+}

@@ -2,6 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "dependencies": {
+    "@recore/theia-extension": "0.2.51",
     "@theia/core": "latest",
     "@theia/editor": "latest",
     "@theia/filesystem": "latest",
@@ -23,7 +24,7 @@
   },
   "scripts": {
     "prepare": "theia build --config webpack.limitless.config.js",
-    "start": "theia start",
+    "start": "theia start --config webpack.limitless.config.js",
     "watch": "theia build --config webpack.limitless.config.js --watch"
   },
   "theia": {
