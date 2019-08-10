@@ -1,0 +1,12 @@
+# theia generation
+lib
+src-gen
+webpack.config.js
+
+# node
+node_modules
+package-backup.json
+
+# vscode plugins
+plugins
+!plugins/README.md

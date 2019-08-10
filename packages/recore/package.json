@@ -6,6 +6,9 @@
   "keywords": [
     "theia-extension"
   ],
+  "publishConfig": {
+    "registry": "https://registry-node.aliyun.com/org/1082343973602444/registry/ide/"
+  },
   "files": [
     "style",
     "lib"

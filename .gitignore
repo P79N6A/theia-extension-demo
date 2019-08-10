@@ -121,10 +121,5 @@ typings/
 .dynamodb/
 
 lib
-app
-!app/package.json
-!app/style-fallback-plugins.js
-!app/webpack.limitless.config.js
-!app/plugins/README.md
 
 # End of https://www.gitignore.io/api/node,macos
