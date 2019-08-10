@@ -3,27 +3,28 @@
   "version": "0.1.0",
   "dependencies": {
     "@theia/core": "latest",
-    "@theia/filesystem": "latest",
-    "@theia/workspace": "latest",
-    "@theia/preferences": "latest",
-    "@theia/navigator": "latest",
-    "@theia/process": "latest",
-    "@theia/terminal": "latest",
     "@theia/editor": "latest",
+    "@theia/filesystem": "latest",
     "@theia/languages": "latest",
     "@theia/markers": "latest",
-    "@theia/monaco": "latest",
-    "@theia/typescript": "latest",
     "@theia/messages": "latest",
-    "hello-world-extension": "0.1.0"
+    "@theia/monaco": "latest",
+    "@theia/navigator": "latest",
+    "@theia/preferences": "latest",
+    "@theia/process": "latest",
+    "@theia/terminal": "latest",
+    "@theia/typescript": "latest",
+    "@theia/workspace": "latest",
+    "hello-world-extension": "0.1.0",
+    "webpack-merge": "^4.2.1"
   },
   "devDependencies": {
     "@theia/cli": "latest"
   },
   "scripts": {
-    "prepare": "theia build",    
+    "prepare": "theia build --config webpack.limitless.config.js",
     "start": "theia start",
-    "watch": "theia build --watch"
+    "watch": "theia build --config webpack.limitless.config.js --watch"
   },
   "theia": {
     "target": "browser"

@@ -123,5 +123,7 @@ typings/
 lib
 app
 !app/package.json
+!app/style-fallback-plugins.js
+!app/webpack.limitless.config.js
 
 # End of https://www.gitignore.io/api/node,macos
