@@ -3,18 +3,43 @@
   "version": "0.3.0",
   "dependencies": {
     "@recore/theia-extension": "^0.3.0",
+    "@theia/callhierarchy": "latest",
+    "@theia/console": "latest",
     "@theia/core": "latest",
+    "@theia/debug": "latest",
+    "@theia/debug-nodejs": "latest",
     "@theia/editor": "latest",
+    "@theia/editor-preview": "latest",
+    "@theia/editorconfig": "latest",
+    "@theia/extension-manager": "latest",
+    "@theia/file-search": "latest",
     "@theia/filesystem": "latest",
+    "@theia/getting-started": "latest",
+    "@theia/git": "latest",
+    "@theia/json": "latest",
+    "@theia/keymaps": "latest",
     "@theia/languages": "latest",
     "@theia/markers": "latest",
+    "@theia/merge-conflicts": "latest",
     "@theia/messages": "latest",
+    "@theia/metrics": "latest",
     "@theia/monaco": "latest",
     "@theia/navigator": "latest",
+    "@theia/output": "latest",
+    "@theia/plugin-ext": "latest",
+    "@theia/plugin-ext-vscode": "latest",
     "@theia/preferences": "latest",
+    "@theia/preview": "latest",
     "@theia/process": "latest",
+    "@theia/search-in-workspace": "latest",
+    "@theia/task": "latest",
     "@theia/terminal": "latest",
+    "@theia/textmate-grammars": "latest",
+    "@theia/tslint": "latest",
+    "@theia/typehierarchy": "latest",
     "@theia/typescript": "latest",
+    "@theia/userstorage": "latest",
+    "@theia/variable-resolver": "latest",
     "@theia/workspace": "latest",
     "hello-world-extension": "^0.3.0",
     "webpack-merge": "^4.2.1"
@@ -28,6 +53,11 @@
     "watch": "theia build --config webpack.limitless.config.js --watch"
   },
   "theia": {
-    "target": "browser"
+    "target": "browser",
+    "frontend": {
+      "config": {
+        "applicationName": "无界"
+      }
+    }
   }
 }
