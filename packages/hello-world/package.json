@@ -1,18 +1,18 @@
 {
   "private": true,
-  "name": "hello-world-extension",     
+  "name": "hello-world-extension",
   "keywords": [
     "theia-extension"
   ],
-  "version": "0.1.0",
+  "version": "0.3.0",
   "files": [
     "lib",
     "src"
   ],
-  "dependencies": {     
+  "dependencies": {
     "@theia/core": "latest"
   },
-  "devDependencies": {     
+  "devDependencies": {
     "rimraf": "latest",
     "typescript": "latest"
   },

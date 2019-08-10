@@ -1,8 +1,8 @@
 {
   "name": "app",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "dependencies": {
-    "@recore/theia-extension": "0.2.51",
+    "@recore/theia-extension": "^0.3.0",
     "@theia/core": "latest",
     "@theia/editor": "latest",
     "@theia/filesystem": "latest",
@@ -16,7 +16,7 @@
     "@theia/terminal": "latest",
     "@theia/typescript": "latest",
     "@theia/workspace": "latest",
-    "hello-world-extension": "0.1.0",
+    "hello-world-extension": "^0.3.0",
     "webpack-merge": "^4.2.1"
   },
   "devDependencies": {
