@@ -49,7 +49,7 @@
   },
   "scripts": {
     "prepare": "theia build --config webpack.limitless.config.js",
-    "start": "theia start --config webpack.limitless.config.js",
+    "start": "theia start --config webpack.limitless.config.js --plugins=local-dir:./plugins",
     "watch": "theia build --config webpack.limitless.config.js --watch"
   },
   "theia": {
